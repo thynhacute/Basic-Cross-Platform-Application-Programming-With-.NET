@@ -1,0 +1,118 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "ModelEntity/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ModelEntity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ModelEntity.dll": {}
+        }
+      },
+      "Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ModelEntity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Repository.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ModelEntity/1.0.0": {
+      "type": "project",
+      "path": "../ModelEntity/ModelEntity.csproj",
+      "msbuildProject": "../ModelEntity/ModelEntity.csproj"
+    },
+    "Repository/1.0.0": {
+      "type": "project",
+      "path": "../Repository/Repository.csproj",
+      "msbuildProject": "../Repository/Repository.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "ModelEntity >= 1.0.0",
+      "Repository >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\dongbh\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\2_FPT_UNIVERSITY\\Lectures\\2023\\1_SPRING\\PRN211_SPRING2023_SE1603\\WorkSpace\\PRN211_SE1603_OOP_SOLUTION\\PRN211_SE1603_OOP_PRO\\PRN211_SE1603_OOP_PRO.csproj",
+      "projectName": "PRN211_SE1603_OOP_PRO",
+      "projectPath": "D:\\2_FPT_UNIVERSITY\\Lectures\\2023\\1_SPRING\\PRN211_SPRING2023_SE1603\\WorkSpace\\PRN211_SE1603_OOP_SOLUTION\\PRN211_SE1603_OOP_PRO\\PRN211_SE1603_OOP_PRO.csproj",
+      "packagesPath": "C:\\Users\\dongbh\\.nuget\\packages\\",
+      "outputPath": "D:\\2_FPT_UNIVERSITY\\Lectures\\2023\\1_SPRING\\PRN211_SPRING2023_SE1603\\WorkSpace\\PRN211_SE1603_OOP_SOLUTION\\PRN211_SE1603_OOP_PRO\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\dongbh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "D:\\2_FPT_UNIVERSITY\\Lectures\\2023\\1_SPRING\\PRN211_SPRING2023_SE1603\\WorkSpace\\PRN211_SE1603_OOP_SOLUTION\\ModelEntity\\ModelEntity.csproj": {
+              "projectPath": "D:\\2_FPT_UNIVERSITY\\Lectures\\2023\\1_SPRING\\PRN211_SPRING2023_SE1603\\WorkSpace\\PRN211_SE1603_OOP_SOLUTION\\ModelEntity\\ModelEntity.csproj"
+            },
+            "D:\\2_FPT_UNIVERSITY\\Lectures\\2023\\1_SPRING\\PRN211_SPRING2023_SE1603\\WorkSpace\\PRN211_SE1603_OOP_SOLUTION\\Repository\\Repository.csproj": {
+              "projectPath": "D:\\2_FPT_UNIVERSITY\\Lectures\\2023\\1_SPRING\\PRN211_SPRING2023_SE1603\\WorkSpace\\PRN211_SE1603_OOP_SOLUTION\\Repository\\Repository.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

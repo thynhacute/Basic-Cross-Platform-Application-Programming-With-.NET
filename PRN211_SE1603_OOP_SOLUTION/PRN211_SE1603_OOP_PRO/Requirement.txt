@@ -1,0 +1,8 @@
+﻿Yêu cầu:
+	Lập trình C# theo hướng đối tượng thỏa mãn:
+		Phần mềm quản trị về Nhân sự của một công ty bao gồm:
+			- Cho phép CRUD n nhân viên (Employee, Worker)
+			- Cho phép hiển thị n hoặc 1 nhân viên theo Id bất kỳ
+			- Tính và in ra màn hình lương theo từng nhân viên và tổng 
+			lương toàn all nhân viên.
+			- Sắp xếp tăng nhân theo lương -> tên và in ra màn hình 

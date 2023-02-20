@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "PRN211_SE1603_OOP_PRO/1.0.0": {
+        "dependencies": {
+          "ModelEntity": "1.0.0",
+          "Repository": "1.0.0"
+        },
+        "runtime": {
+          "PRN211_SE1603_OOP_PRO.dll": {}
+        }
+      },
+      "ModelEntity/1.0.0": {
+        "runtime": {
+          "ModelEntity.dll": {}
+        }
+      },
+      "Repository/1.0.0": {
+        "dependencies": {
+          "ModelEntity": "1.0.0"
+        },
+        "runtime": {
+          "Repository.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PRN211_SE1603_OOP_PRO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ModelEntity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Repository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
